@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper-head">
+                <div class="header_wrapper-head-logo">
+                    Recipe App
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="wrapper">
+            <div class="main_wrapper">
+                <div class="main_wrapper-texts">
+                    <p class="main_wrapper-texts-text">Browse Foods</p>
+                    <input type="text" id="searchInput" placeholder="Search by ingredient or recipe name">    
+                </div>
+
+                <div class="main_wrapper-recipe-grid" id="recipeGrid">
+                    
+                </div>
+                
+                <div id="recipeModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <div id="recipeDetails"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="favorites">
+        <div class="wrapper">
+            <div class="favorites_wrapper">
+                <div class="favorites_wrapper-text">
+                    Your Favorites
+                </div>
+                <div class="main_wrapper-recipe-grid" id="favoritesGrid"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

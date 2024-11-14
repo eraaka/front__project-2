@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <section class="head">
+        <div class="wrapper">
+            <div class="haed__wrapper">
+                <div class="haed__wrapper-search">
+                    <input type="text" placeholder="Search for your preferred city ...">
+                    <button class="button">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="wrapper">
+            <div class="main__wrapper"> 
+                <div class="main__wrapper-weather hidden" id="weatherInfo">
+                    <div class="weather__icon">
+                        <img src="img/sun.png" alt="">
+                    </div>
+                    <div class="temp">
+                        0 °C
+                    </div>
+                    <div class="city__name ">
+                        Oral
+                    </div>
+                    <div class="weather__info">
+                        <div class="col">
+                            <div class="humadity-card">
+                                <img src="img/weather.png" alt="">
+                                <div class="humadity__info">
+                                    <div class="humidity">
+                                        80%
+                                    </div>
+                                    <div>Humidity</div>
+                                </div>
+                            </div>
+                            <div class="wind-card">
+                                <img src="img/wind.png" alt="">
+                                <div class="wind__imfo">
+                                    <div class="wind">
+                                        8 km/h
+                                    </div>
+                                    <div>Wind Speed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

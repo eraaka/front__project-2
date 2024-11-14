@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    height: 100vh;    
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+    width: 78.125%; /* 1500/1920 */
+    margin: 0 auto;
+}
+.main__wrapper-weather{
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.weather__icon img{
+    width: 120px;
+    height: auto;
+
+}
+.haed__wrapper{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.haed__wrapper-search{
+    width: 700px;
+}
+.col{
+    padding-top: 15px;
+    display: flex;
+    gap: 50px;
+}
+.humadity-card img{
+    width: 60px;
+    height: auto;
+}
+.humadity-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.humadity__info{
+    max-height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.wind-card img{
+    width: 60px;
+    height: auto;
+}
+.wind-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+input[type="text"]{
+    max-width: 600px;
+    width: 83.333333%; /* 500/600 */
+    border-radius: 40px;
+    height: 32px;
+}
+.haed__wrapper-curloc{
+    margin-left: 10px;
+}
+.button{
+    border-radius: 40px;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: 2px black solid;
+}
+.main__wrapper-weather{
+    width: 700px
+}
+.hidden {
+    display: none;
+}
+
+
